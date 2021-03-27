@@ -17,8 +17,6 @@ export const restaurantsTransform = ({ results = [] }) => {
       return mockImages[Math.ceil(Math.random() * (mockImages.length - 1))];
     });
 
-    // console.log({ restaurant });
-
     return {
       ...restaurant,
       address: restaurant.vicinity,
